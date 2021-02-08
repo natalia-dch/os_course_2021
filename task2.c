@@ -7,7 +7,7 @@ pid_t  pid = fork();
 if (pid == -1)
 	printf("Error happened");
 else if (pid == 0) 
-        execle("/bin/cat","/bin/cat", "task1.c",0, envp);
+        execle("/bin/ls","'bin/ls",0, envp);
 else
 	printf("It's a parent. PID = %d",getpid());
 return 0;
