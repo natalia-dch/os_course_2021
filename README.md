@@ -1,2 +1,1 @@
-# osprac
-Доскач Наталья БПИ193
+Operating systems course (2021).
